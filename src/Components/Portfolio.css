@@ -1,0 +1,288 @@
+.box{
+    background: #1399c9;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+.box:before{
+    content: "";
+    background: #fff;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
+    border-radius: 0 20px;
+    opacity: 0;
+    transform: perspective(1000px) rotateX(90deg);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    transition: all 0.3s ease-in;
+}
+.box:hover:before{
+    opacity: 1;
+    transform: perspective(1000px) rotateX(0);
+}
+.box img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+.box:hover img{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+.box .box-content{
+    color: #fff;
+    background: #0a4459;
+    background-color: #0cbaba;
+background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+
+    text-align: center;
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 0 20px;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-200%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transition: all 0.3s ease-out;
+}
+.box:hover .box-content{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-60%);
+}
+.box .title{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 0 5px;
+}
+.box .post{
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box1{
+    background: #4be178;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+.box1:before{
+    content: "";
+    background: #fff;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
+    border-radius: 0 20px;
+    opacity: 0;
+    transform: perspective(1000px) rotateX(90deg);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    transition: all 0.3s ease-in;
+}
+.box1:hover:before{
+    opacity: 1;
+    transform: perspective(1000px) rotateX(0);
+}
+.box1 img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+.box1:hover img{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+.box1 .box1-content{
+    color: #fff;
+    background: #117422;
+    background-color: #63d471;
+background-image: linear-gradient(315deg, #63d471 0%, #233329 74%);
+
+
+    text-align: center;
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 0 20px;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-200%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transition: all 0.3s ease-out;
+}
+.box1:hover .box1-content{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-60%);
+}
+.box1 .title{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 0 5px;
+}
+.box1 .post{
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box2{
+    background: #c04c48;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+.box2:before{
+    content: "";
+    background: #fff;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
+    border-radius: 0 20px;
+    opacity: 0;
+    transform: perspective(1000px) rotateX(90deg);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    transition: all 0.3s ease-in;
+}
+.box2:hover:before{
+    opacity: 1;
+    transform: perspective(1000px) rotateX(0);
+}
+.box2 img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+.box2:hover img{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+.box2 .box2-content{
+    color: #fff;
+    background: #c5685c;
+    background-color: #baba00;
+background-image: linear-gradient(315deg, #baba00 0%, #ba1313 74%);
+
+
+    text-align: center;
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 0 20px;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-200%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transition: all 0.3s ease-out;
+}
+.box2:hover .box2-content{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-60%);
+}
+.box2 .title{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 0 5px;
+}
+.box2 .post{
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.box4{
+    background: #dbd8de;
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+.box4:before{
+    content: "";
+    background: #fff;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5) inset;
+    border-radius: 0 20px;
+    opacity: 0;
+    transform: perspective(1000px) rotateX(90deg);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    bottom: 12px;
+    transition: all 0.3s ease-in;
+}
+.box4:hover:before{
+    opacity: 1;
+    transform: perspective(1000px) rotateX(0);
+}
+.box4 img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+.box4:hover img{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
+.box4 .box4-content{
+    color: #03224d;
+    background: #535556;
+    background-color: #aee1f9;
+background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+text-align: center;
+    width: 80%;
+    padding: 15px 10px;
+    border-radius: 0 20px;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-200%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transition: all 0.3s ease-out;
+}
+.box4:hover .box4-content{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-60%);
+}
+.box4 .title{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0 0 5px;
+}
+.box4 .post{
+    font-size: 16px;
+    font-style: italic;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}

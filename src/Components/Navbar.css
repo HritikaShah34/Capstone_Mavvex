@@ -1,0 +1,33 @@
+.navbar-nav > li{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  .bg-custom-2 {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,35,85,1) 40%, rgba(50,129,210,1) 100%);
+    }
+.text-clr{
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 26%, rgba(92,207,179,1) 100%);
+  background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.profile {width: 100px}
+.img-thumbnail{
+  border: 0;
+}
+.design{
+  width: 25;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35,35,85,1) 40%, rgba(50,129,210,1) 100%);
+    
+}
+.btn{
+  border-radius:2ch;
+}
+.ml1{
+  margin-left: 100;
+}
+/* .navbar-brand {
+    padding-left:70px;
+} */

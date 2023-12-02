@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: relative;
+    background: #000;
+  }
+  .a1 {
+    text-decoration: none;
+    color: inherit;
+    font-size: 24px;
+  }
+  
+  .p1 {
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #8794b4, #fff, #4e7a99);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+  /*  Checkout my other pens on  https://codepen.io/grohit/  */
+  
